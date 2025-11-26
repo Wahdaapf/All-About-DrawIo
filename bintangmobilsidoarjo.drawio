@@ -316,6 +316,36 @@
         <mxCell id="LvSBi9ApQjQHfKHxnTtx-111" parent="LvSBi9ApQjQHfKHxnTtx-107" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="createdAt: Timestamp" vertex="1">
           <mxGeometry height="30" width="140" y="130" as="geometry" />
         </mxCell>
+        <mxCell id="LvSBi9ApQjQHfKHxnTtx-113" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="reports" vertex="1">
+          <mxGeometry height="350" width="140" x="1860" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LvSBi9ApQjQHfKHxnTtx-114" parent="LvSBi9ApQjQHfKHxnTtx-113" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="tanggalLaporan: timestamp" vertex="1">
+          <mxGeometry height="40" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LvSBi9ApQjQHfKHxnTtx-115" parent="LvSBi9ApQjQHfKHxnTtx-113" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="tipelaporan: string (&quot;Harian&quot; | &quot;Bulanan&quot;)" vertex="1">
+          <mxGeometry height="40" width="140" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LvSBi9ApQjQHfKHxnTtx-116" parent="LvSBi9ApQjQHfKHxnTtx-113" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="periode: string (contoh: &quot;2025-11&quot; untuk bulanan)" vertex="1">
+          <mxGeometry height="50" width="140" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LvSBi9ApQjQHfKHxnTtx-117" parent="LvSBi9ApQjQHfKHxnTtx-113" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="unitMasuk: number" vertex="1">
+          <mxGeometry height="30" width="140" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="LvSBi9ApQjQHfKHxnTtx-118" parent="LvSBi9ApQjQHfKHxnTtx-113" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="totalTransaksi: number" vertex="1">
+          <mxGeometry height="30" width="140" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="LvSBi9ApQjQHfKHxnTtx-119" parent="LvSBi9ApQjQHfKHxnTtx-113" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="totalPendapatan: number" vertex="1">
+          <mxGeometry height="40" width="140" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="LvSBi9ApQjQHfKHxnTtx-120" parent="LvSBi9ApQjQHfKHxnTtx-113" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="cashTempo: number" vertex="1">
+          <mxGeometry height="30" width="140" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="LvSBi9ApQjQHfKHxnTtx-121" parent="LvSBi9ApQjQHfKHxnTtx-113" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="createdAt: timestamp" vertex="1">
+          <mxGeometry height="30" width="140" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="LvSBi9ApQjQHfKHxnTtx-122" parent="LvSBi9ApQjQHfKHxnTtx-113" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="generatedBy: string (userId)" vertex="1">
+          <mxGeometry height="30" width="140" y="320" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
